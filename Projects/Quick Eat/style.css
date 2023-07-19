@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.header .logo {
+  font-size: 2.5em;
+  color: azure;
+  text-decoration: none;
+}
+
+.nav-bar a {
+  position: relative;
+  font-size: 1.5em;
+  color: azure;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.nav-bar a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: azure;
+  left: 0;
+  bottom: -5px;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: 0.5s;
+}
+
+.nav-bar a:hover::after {
+  transform: scaleX(1);
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(Images/pexels-cats-coming-1571077.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px 0;
+}
+
+.home .contents {
+  max-width: 600px;
+  color: #fff;
+  font-weight: 600;
+  font-size: large;
+}
+
+.contents h2 {
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  font-weight: bolder;
+}
+
+.contents p {
+  margin: 10px 0 40px;
+}
+
+.start-button {
+  display: block;
+  margin-top: 30px;
+  border: none;
+  background: inherit;
+  border: 2px solid azure;
+  font-weight: 500;
+  padding: 10px 40px;
+  border-radius: 40px;
+}
+
+.contents a button {
+  text-decoration: none;
+  color: azure;
+}
+
+.contents a {
+  text-decoration: none;
+}
+
+.start-button:hover {
+  background-color: crimson;
+  border: 2px solid crimson;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.start-button:active {
+  background-color: rgba(222, 62, 94, 0.543);
+}
+
+.home .wrapper-login {
+  position: relative;
+  width: 440px;
+}
+
+.wrapper-login h2 {
+  font-size: 2em;
+  color: azure;
+  text-align: center;
+}
+
+.wrapper-login .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 40px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 1px solid azure;
+  outline: none;
+  border-radius: 40px;
+  font-size: 1em;
+  color: azure;
+  padding: 0 25px 0 45px;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 45px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: azure;
+  pointer-events: none;
+  padding-left: 20px;
+  transition: 0.5s;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  font-size: 0.8em;
+  top: -14px;
+  left: 17px;
+}
+
+.input-box .icon {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  font-size: 1.4em;
+  color: azure;
+}
+
+.wrapper-login .remember-forgot {
+  font-size: 0.9em;
+  color: azure;
+  margin: -25px 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember-forgot label input {
+  accent-color: transparent;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  text-decoration: none;
+  color: azure;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper-login .btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  background: linear-gradient(90deg azure gray);
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+}
+.wrapper-login .btn:active {
+  box-shadow: none;
+  transition: 5ms;
+}
+
+.wrapper-login .not-registered {
+  font-size: 0.9em;
+  text-align: center;
+  color: azure;
+  margin: 30px 0;
+}
+
+.not-registered p a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+.not-registered p a:hover {
+  text-decoration: underline;
+}
