@@ -3,30 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ZTM Forms</title>
+    <title>Signup/Login</title>
+    <link rel="stylesheet" href="forms.css" />
   </head>
   <body>
-    <h1>Registration Form</h1>
-
-    <form>
-      FirstName: <input type="text" name="Firstname" /> SecondName:
-      <input type="text" name="SecondName" /><br />
-      Telephone:
-      <input type="tel" name="PhoneNumber" placeholder="+2341234567" /><br />
-      Email: <input type="email" name="email" required /><br />
-      Gender:
-      <select name="Gender" id="">
-        <option value="Male">Male</option>
-        <option value="Female">Female</option></select
-      ><br />
-      Title: MR<input type="radio" name="Title" value="MR" id="" /> MRS<input
-        type="radio"
-        name="Title"
-        value="MRS"
-        id=""
-      /><br />
-      <input type="submit" value="Submit" />
-      <input type="reset" value="Reset" />
-    </form>
+    <div class="wrapper">
+      <form class="container">
+        <i>FirstName: <input type="text" placeholder="FirstName" /></i>
+        <i>LastName: <input type="text" placeholder="LastName" /></i>
+        <i>Email: <input type="email" placeholder="Email" /></i>
+        <i
+          >Sex: Male <input type="radio" name="Sex" /> Female
+          <input type="radio" name="Sex"
+        /></i>
+        <i>PhoneNumber: <input type="tel" name="PhoneNumber" /></i>
+        <i>Birthday: <input type="month" name="Birthday" /></i>
+        <i>Create Password: <input type="password" name="password" /></i>
+        <i
+          >Confirm Password: <input type="password" name="confirm-password"
+        /></i>
+        <select name="privacy" class="privacy">
+          <option value="privacy">Yes</option>
+          <option value="privacy">No</option>
+        </select>
+        <button type="submit">Create Account</button>
+        <button type="reset">Delete</button>
+      </form>
+    </div>
   </body>
 </html>

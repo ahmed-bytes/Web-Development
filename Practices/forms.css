@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  background-color: gray;
+  height: 90vh;
+  width: 30%;
+  border-radius: 30px;
+  box-shadow: 5px 10px 20px black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-top: 20px;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+i {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  height: 50px;
+  width: 90px;
+  border: none;
+  box-shadow: 3px 3px 10px rgb(51, 49, 49);
+  border-radius: 20px;
+}
+
+.privacy {
+  max-width: 90px;
+  margin-top: 20px;
+}
+
+@media and (max-width: 760px) {
+}
