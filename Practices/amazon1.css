@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  line-height: 3em;
+  margin-left: 20px;
+}
+
+.product {
+  font-size: 2.5em;
+}
+
+.product-status {
+  color: green;
+}

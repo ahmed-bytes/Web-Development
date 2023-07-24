@@ -187,6 +187,7 @@
 
 .remember-forgot a:hover {
   text-decoration: underline;
+  color: blue;
 }
 
 .wrapper-login .btn {
@@ -221,4 +222,5 @@
 
 .not-registered p a:hover {
   text-decoration: underline;
+  color: darkgreen;
 }
