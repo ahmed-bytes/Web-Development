@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uber Ride</title>
+    <link rel="stylesheet" href="Uber_request_form.css" />
+  </head>
+  <body>
+    <form>
+      <h2>Request a ride now</h2>
+      <p class="user_data">
+        <input
+          type="text"
+          name="pickup_location"
+          placeholder="Enter pickup location"
+          required
+        />
+        <input
+          type="text"
+          name="destination"
+          placeholder="Enter destination"
+          class="destination_bar"
+          required
+        />
+      </p>
+      <p>
+        <button type="submit" class="request-btn">Request now</button>
+        <button type="reset" class="schedule-btn">Schedule for later</button>
+      </p>
+    </form>
+  </body>
+</html>

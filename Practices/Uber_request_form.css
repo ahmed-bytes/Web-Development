@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  margin-left: 20px;
+  margin-top: 20px;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+input {
+  height: 9vh;
+  width: 70%;
+  display: block;
+  padding-left: 20px;
+  border: none;
+  background-color: lightgray;
+  font-size: larger;
+}
+
+button {
+  width: 20%;
+  height: 8vh;
+  border: none;
+  margin-top: 30px;
+}
+
+.destination_bar {
+  margin-top: 10px;
+}
+
+.request-btn {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.request-btn:hover {
+  background-color: rgb(44, 39, 39);
+  cursor: pointer;
+}
+
+.request-btn:active {
+  background-color: rgb(129, 126, 126);
+}
+
+.schedule-btn {
+  margin-left: 15px;
+}
+
+.schedule-btn:hover {
+  cursor: pointer;
+  background-color: rgb(218, 209, 209);
+}
+.schedule-btn:active {
+  background-color: gray;
+}

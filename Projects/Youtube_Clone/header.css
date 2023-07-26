@@ -1,0 +1,28 @@
+header {
+  height: 55px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.search-bar {
+  font-size: 20px;
+}
+
+.left-section {
+  background-color: blue;
+  width: 150px;
+}
+
+.middle-section {
+  background-color: pink;
+  width: 1fr;
+  margin-left: 70px;
+  margin-right: 35px;
+}
+
+.right-section {
+  background-color: blue;
+  width: 200px;
+}
