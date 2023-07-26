@@ -6,7 +6,7 @@
 }
 
 .container {
-  line-height: 3em;
+  line-height: 2.5em;
   margin-left: 20px;
 }
 
@@ -15,5 +15,32 @@
 }
 
 .product-status {
+  display: block;
   color: green;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.delivery-status {
+  display: block;
+  font-weight: 600;
+}
+
+button {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-right: 3px;
+}
+
+.cart-btn {
+  background-color: rgba(246, 212, 20, 0.907);
+}
+
+.buy-btn {
+  background-color: orange;
+  margin-left: 15px;
 }
