@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube Clone</title>
     <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="sidebar.css" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="video.css" />
   </head>
   <body>
     <header class="header-container">
-      <div class="left-section">left section</div>
+      <div class="left-section">
+        <img
+          src="/Images/Icons/menu-burger-horizontal-svgrepo-com.svg"
+          class="hamburger-menu"
+        />
+        <img src="/Images/Icons/youtube-7654.svg" class="youtube-logo" />
+      </div>
       <div class="middle-section">
         <input
           type="search"
@@ -18,13 +25,93 @@
           placeholder="Search"
           class="search-bar"
         />
+        <button class="search-button">
+          <img src="/Images/Icons/icons8-search.svg" class="search-icon" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search">
+          <img
+            src="/Images/Icons/black-microphone-14637.svg"
+            class="voice-search-icon"
+          />
+          <div class="tooltip">Search With Your Voice</div>
+        </button>
       </div>
-      <div class="right-section">right section</div>
+      <div class="right-section">
+        <div class="video-record-container">
+          <img
+            src="/Images/Icons/video-camera-svgrepo-com.svg"
+            class="video-record"
+          />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="grid-icon-container">
+          <img src="/Images/Icons/apps-grid-icon.svg" class="menu-grid" />
+          <div class="tooltip">More Apps</div>
+        </div>
+
+        <div class="notification-container">
+          <img src="/Images/Icons/notification-bell.svg" class="notification" />
+          <div class="notification-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <div class="profile-container">
+          <img src="/Images/Human_Images/v3_0555064.jpg" class="profile-pic" />
+          <div class="tooltip">Profile</div>
+        </div>
+      </div>
     </header>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="/Images/Icons/icons8-home.svg" alt="" class="sidebar-icons" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          src="/Images/Icons/352332_explore_icon.svg"
+          alt=""
+          class="sidebar-icons"
+        />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          src="/Images/Icons/subscriptions.svg"
+          alt=""
+          class="sidebar-icons"
+        />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          src="/Images/Icons/youtube-logo-7625.svg"
+          alt=""
+          class="sidebar-icons"
+        />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          src="/Images/Icons/icons8-youtube-music.svg"
+          alt=""
+          class="sidebar-icons"
+        />
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          src="/Images/Icons/video-library.svg"
+          alt=""
+          class="sidebar-icons"
+        />
+        <div>Library</div>
+      </div>
+    </div>
     <div class="video-grid-container">
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="/Images/Screenshot (31).png" />
+          <div class="video-time">14:20</div>
         </div>
         <div class="video-grid-info">
           <div class="channel-pic">
@@ -43,6 +130,7 @@
             class="thumbnail"
             src="/Images/A-Roadmap-for-FullStack-Web-Development-in-2022.jpg"
           />
+          <div class="video-time">10:00</div>
         </div>
         <div class="video-grid-info">
           <div class="channel-pic">
@@ -61,6 +149,7 @@
             class="thumbnail"
             src="/Images/Dr_Devex_4k_pic_of_An_African_Teenager_Waking_up_from_Sleep_on__e50f520b-3e45-4239-a4b8-128962b9e92f.png"
           />
+          <div class="video-time">1:01:20</div>
         </div>
         <div class="video-grid-info">
           <div class="channel-pic">
@@ -79,6 +168,7 @@
             class="thumbnail"
             src="/Images/illlustrations/png/day15-color-tool.png"
           />
+          <div class="video-time">31:00</div>
         </div>
         <div class="video-grid-info">
           <div class="channel-pic">
@@ -100,6 +190,7 @@
             class="thumbnail"
             src="/Images/Dr_Devex_A_human_being_brain_and_an_artificial_intelligence_bra_9c8fde49-8ce9-422b-93f7-d2e0b5803ef0.png"
           />
+          <div class="video-time">11:50</div>
         </div>
         <div class="video-grid-info">
           <div class="channel-pic">
@@ -117,6 +208,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="/Images/70242-hd-cloud-wallpaper.jpg" />
+          <div class="video-time">20:20</div>
         </div>
         <div class="video-grid-info">
           <div class="channel-pic">
