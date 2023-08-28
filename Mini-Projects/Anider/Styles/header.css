@@ -1,0 +1,23 @@
+header {
+  width: 100%;
+  position: absolute;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  z-index: 200;
+}
+
+nav img {
+  height: 50px;
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+.d-flex {
+  width: 400px;
+}
+
+.btn btn-outline-success {
+  width: 150px;
+}

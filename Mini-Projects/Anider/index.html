@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anider</title>
+    <link rel="shortcut icon" href="Images/paws.png" type="image/x-icon" />
+    <link rel="stylesheet" href="Styles/header.css" />
+    <link rel="stylesheet" href="Styles/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="Images/paws.png" alt="Anider Logo" />Anider</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Sign-In
+                </a>
+                <ul class="dropdown-menu">
+                  <form class="px-4 py-3">
+                    <div class="mb-3">
+                      <label for="exampleDropdownFormEmail1" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleDropdownFormEmail1"
+                        placeholder="email@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label
+                        for="exampleDropdownFormPassword1"
+                        class="form-label"
+                        >Password</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="exampleDropdownFormPassword1"
+                        placeholder="Password"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <div class="form-check">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="dropdownCheck"
+                        />
+                        <label class="form-check-label" for="dropdownCheck">
+                          Remember me
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                      Sign in
+                    </button>
+                  </form>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">New around here? Sign up</a>
+                  <a class="dropdown-item" href="#">Forgot password?</a>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <video
+        src="/Images/20125303-preview.mp4"
+        autoplay
+        loop
+        muted
+        class="background-video"
+      ></video>
+      <div class="intro">
+        <h1>Welcome to ANIDER</h1>
+        <article>
+          The Ultimate Platform That bridges the gap between animals and humans,
+          fostering a deeper connection and understanding between these two
+          worlds.
+        </article>
+      </div>
+    </main>
+
+    <section class="download-section">
+      <article>
+        Looking For a New Pet? It's Just one download away
+        <p>
+          <button><img src="/Images/playstore_300218.png" />Download</button>
+          <button><img src="/Images/apple_831329.png" />Download</button>
+        </p>
+      </article>
+      <img
+        class="download-image"
+        src="/Images/download__1_-removebg-preview.png"
+      />
+    </section>
+
+    <section class="feature-section">
+      <figure>
+        <img src="/Images/data-security_2512859.png" />
+        <figcaption>
+          <span class="desc">Easy To Use.</span>
+          <p>Its so easy to use, anyone can use it.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="/Images/target_3279041.png" />
+        <figcaption>
+          <span class="desc">Amazing and Easy to Train</span>
+          <p>
+            we have the most amazing pets with gentle behavior that are trained
+            by world-class pet trainers
+          </p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="/Images/heart_2724657.png" />
+        <figcaption>
+          <span class="desc">Guaranteed To Get a Pet.</span>
+          <p>
+            After using our app, you are guaranteed to find that pet that
+            matches your personality.
+          </p>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="testimonial">
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/Images/japheth-mast-Ga6z9QD8yvw-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <p class="quote">
+              "I most times have anxiety, and I often have trouble sleeping. But
+              when I got to adopt a cat named Mittens, everything changed.
+              Mittens is a very calming presence, and she loves to curl up on my
+              bed at night. Mittens has helped me relax and sleep better, and
+              I'm so grateful for her."
+            </p>
+            <span class="name">- Japheth</span>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="/Images/humberto-arellano-N_G2Sqdy9QY-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <p class="quote">
+              "My daughter has always wanted a cat, but I was worried about
+              allergies. But after using your app, I found the perfect cat for
+              her: a hypoallergenic cat named Squeak. Squeak is so playful and
+              affectionate, and she's helped my daughter to be more outgoing.
+              She's also a great comfort to my daughter when she's feeling
+              anxious. I'm so glad I adopted her!"
+            </p>
+            <span class="name">- Arellania</span>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/Images/sasha-sashina-k1hbfag2na0-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <p class="quote">
+              "I've always been a dog person, but I've never had the time or
+              energy to care for one. But then we found your app, and it helped
+              me find the perfect dog for my lifestyle. I'm now the proud owner
+              of a sweet, cuddly husky named Buddy, and he's brought so much joy
+              into my life. He's always happy to see me, and he loves to go for
+              walks and play fetch. I can't imagine my life without him."
+            </p>
+            <span class="name">- Sasha</span>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/Images/__-drz-__-N_INAlQoO6Y-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <p class="quote">
+              "I'm a single mom, and I work long hours. I was worried about
+              leaving my kids home alone all day, but then I found your app and
+              adopted a dog named Sparky. Sparky is a great watchdog, and he's
+              always there to keep my kids company. He's also a great listener,
+              and he's helped my kids learn how to be more responsible. I'm so
+              grateful for Sparky, and I know my kids are too."
+            </p>
+            <span class="name">- Jessica</span>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/Images/wade-austin-ellis-FtuJIuBbUhI-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <p class="quote">
+              I was always a cat person, but my wife wanted a dog. We were at a
+              stalemate until we found your app. We were able to find a dog that
+              was a good fit for both of us, and our kids love him too! He's a
+              great addition to our family, and I'm so glad we found him"
+            </p>
+            <span class="name">- Elle</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing"></section>
+  </body>
+</html>

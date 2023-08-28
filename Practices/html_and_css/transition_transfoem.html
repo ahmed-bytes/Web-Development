@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing</title>
+    <style>
+      body {
+        background: url();
+      }
+      div {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+        transition: all 3s ease-in-out 0.5s;
+      }
+
+      .first {
+        background-color: red;
+      }
+      .second {
+        background-color: aqua;
+      }
+      .third {
+        background-color: blueviolet;
+      }
+      .fourth {
+        background-color: yellow;
+      }
+
+      .first:hover {
+        transform: translateX(300px) rotate(360deg);
+        cursor: pointer;
+      }
+
+      .second:hover {
+        background-color: black;
+        color: white;
+        transform: translate(30px, -50px);
+        cursor: pointer;
+      }
+
+      .third:hover {
+        background-color: red;
+        color: azure;
+        transform: rotate(360deg);
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .fourth:hover {
+        background-color: chartreuse;
+        color: red;
+        border-radius: 50%;
+        cursor: pointer;
+        transform: rotate(360deg) translateX(500px) scale(2, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first">First</div>
+    <div class="second">Second</div>
+    <div class="third">Third</div>
+    <div class="fourth">Fourth</div>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.background-video {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+video {
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main {
+  text-align: center;
+}
+
+.intro {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  height: 625px;
+  width: 100%;
+  font-size: 2.5em;
+  line-height: 2em;
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  background-color: rgba(64, 64, 64, 0.7);
+  /* margin-bottom: 100px; */
+  padding-top: 80px;
+}
+
+.intro h1 {
+  font-size: 2.8em;
+}
+
+.intro article {
+  font-style: italic;
+}
+
+.download-section {
+  margin-top: 70px;
+  height: 450px;
+  background-color: #373f47;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-section article {
+  color: azure;
+  font-size: 2.5em;
+  width: 50%;
+  margin-left: 30px;
+}
+
+.download-section article button {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 30px;
+  border-width: 1px;
+  cursor: pointer;
+  border-color: white;
+  border-style: solid;
+  background-color: inherit;
+  color: azure;
+  margin-top: 30px;
+}
+
+.download-image {
+  margin-right: 200px;
+  width: 300px;
+}
+
+.download-section article button img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.feature-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 450px;
+  background-color: azure;
+}
+
+figure {
+  text-align: center;
+  color: #373f47;
+}
+
+figure img {
+  height: 100px;
+}
+
+figure figcaption .desc {
+  font-size: 2.2em;
+  font-weight: 700;
+}
+
+figure figcaption p {
+  margin-top: 15px;
+  width: 400px;
+  color: #373f47;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.testimonial {
+  height: 600px;
+  text-align: center;
+  color: azure;
+  font-size: 1.3em;
+  font-style: italic;
+  margin-top: 30px;
+  background-color: #373f47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: -100px;
+  padding-top: 100px;
+}
+
+.testimonial img {
+  height: 200px;
+  width: 400px;
+  object-fit: contain;
+}
+
+.testimonial .name {
+  color: azure;
+  font-size: 2em;
+}
+
+.testimonial p {
+  width: 500px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pricing {
+  height: 500px;
+  background-color: azure;
+}
