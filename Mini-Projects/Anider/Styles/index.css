@@ -86,6 +86,15 @@ main {
   margin-top: 30px;
 }
 
+.download-section article button:hover {
+  background-color: azure;
+  color: #373f47;
+}
+
+.download-section article button:active {
+  background-color: lightgray;
+}
+
 .download-image {
   margin-right: 200px;
   width: 300px;
@@ -127,7 +136,7 @@ figure figcaption p {
 }
 
 .testimonial {
-  height: 600px;
+  height: 650px;
   text-align: center;
   color: azure;
   font-size: 1.3em;
@@ -163,6 +172,21 @@ figure figcaption p {
 }
 
 .pricing {
-  height: 500px;
+  height: 560px;
   background-color: azure;
+}
+
+.pricing button {
+  color: #373f47;
+  border-color: #373f47;
+}
+
+.pricing button:hover {
+  background-color: #373f47;
+  border-color: #373f47;
+}
+
+.pricing button:active {
+  background-color: azure;
+  color: #373f47;
 }
