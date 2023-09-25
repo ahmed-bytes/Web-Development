@@ -1,0 +1,119 @@
+body{
+    font-family: Roboto, Arial;
+}
+
+
+.main-container{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    background-color: pink;
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+}
+
+
+
+.container2{
+    background-color: lightblue;
+    height: 50px;
+    width: 200px;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2,.row3{
+    background-color: black;
+    color: white;
+}
+
+
+
+.Div-container{
+    border-radius: 6px;
+    box-shadow: 3px 4px 20px rgb(197, 197, 197);
+    width: 440px;
+    height: 350px;
+    margin-left: 100px;
+    transition: 0.6s;
+}
+
+.Div-container:hover{
+    cursor: pointer;
+    background-color: rgb(231, 226, 226)
+}
+
+.Div-container:active{
+    box-shadow: none;
+}
+
+.inbox{
+    padding-top: 15px;
+    padding-bottom: 19px;
+    color: rgb(167, 166, 166);
+    font-weight: 550;
+    font-size: small;
+}
+
+.Div-container2{
+    display: flex;
+}
+
+.promo{
+    line-height: 1.3rem;
+    margin-left: 0.7rem;
+    
+    
+}
+
+.promo2,.promo3{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.biggest{
+    margin-top: 0.3rem;
+    font-weight: 750;
+    font-size: 1rem;
+
+
+}
+
+.time{
+    font-weight: 550;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.image,.image3{
+    width: 55px;
+    height: 55px;
+    border-radius: 45px;
+    object-fit: cover;
+    object-position: center;
+    align-self: center;
+}
+
+
+.Div-container2,.inbox{
+    margin-left: 20px;
+}
+
+
+.hey{
+    margin-top: 0.1rem;
+    color: gray;
+    font-weight: 500;
+}
+
+.promo3{
+    margin-top: 2rem;
+}

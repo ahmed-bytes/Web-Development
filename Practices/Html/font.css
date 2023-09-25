@@ -1,0 +1,156 @@
+.ww,.qq,.bn,.ff,.tweet,.twee,.swe{
+    font-family: Arial;
+}
+
+.kk{
+    margin-bottom: 6px;
+
+}
+
+.ll{
+    margin-bottom: 7px;
+}
+
+.ww{
+    font-size: xx-large;
+}
+
+.qq{
+    color: gray;
+    font-size: medium;
+}
+
+.bn{
+    color: rgba(0, 128, 0, 0.521);
+}
+
+.hh{
+    color: gray;
+}
+
+.ff{
+    color: rgba(255, 0, 0, 0.63);
+}
+
+.tweet{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.tw{
+    color: gray;
+    font-weight: normal;
+}
+
+.et{
+    color: rgb(76, 144, 233);
+    cursor: pointer;
+}
+
+.et:hover{
+    color: blue;
+}
+
+.profile1{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 300px;
+}
+
+.lets{
+    display: inline-block;
+}
+.let{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+.bar{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.in{
+    border-color: gray;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+}
+
+.dn{
+    font-size: small;
+    color: gray;
+    margin-bottom: 3px;
+}
+
+.ke{
+    font-size: small;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: rgb(67, 67, 216);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.link:hover{
+    background-color: skyblue;
+}
+.link:active{
+    background-color: green;
+    color: white;
+}
+
+.bby{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 300px;
+    vertical-align: middle;
+}
+
+.bbs{
+    border: none;
+    padding-left: 5px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    vertical-align: middle;
+    font-family: Arial;
+}
+
+.bbv{
+    background-color:rgb(12, 134, 248);
+    height: 30px;
+    width: 75px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.5s               
+}
+
+.bbv:hover{
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.2);
+}
+.bbv:active{
+    opacity: 0.8;
+}

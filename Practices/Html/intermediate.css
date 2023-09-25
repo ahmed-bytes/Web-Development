@@ -1,0 +1,390 @@
+.learn {
+  vertical-align: middle;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  background-color: gray;
+  display: inline-block;
+}
+
+.text {
+  display: block;
+}
+
+.email {
+  display: block;
+  margin-top: 10px;
+}
+
+.firsttext {
+  width: 200px;
+  display: block;
+  color: white;
+}
+
+.yes {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.no {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.g,
+.o,
+.oo,
+.gg,
+.l,
+.e {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600px;
+  font-size: xxx-large;
+}
+
+.g {
+  color: rgb(39, 165, 207);
+}
+
+.o {
+  color: brown;
+}
+
+.oo {
+  color: rgba(255, 255, 0, 0.589);
+}
+
+.gg {
+  color: rgb(39, 165, 207);
+}
+
+.l {
+  color: rgb(78, 214, 78);
+}
+
+.e {
+  color: brown;
+}
+
+.search {
+  width: 300px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 40px;
+  padding-left: 200x;
+  padding-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 450px;
+  margin-top: 5px;
+}
+
+.google {
+  margin-left: 600px;
+}
+
+.ffn {
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  display: inline-block;
+  border-width: 0.3px;
+}
+
+.ffw {
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  border-width: 0.1px;
+}
+
+.emm {
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 150px;
+  display: block;
+  border-width: 1px;
+}
+
+.buttn {
+  padding-left: 115px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  background-color: rgb(110, 153, 231);
+  border: solid;
+  border-color: rgb(110, 153, 231);
+  color: white;
+  font-weight: 600;
+  font-size: large;
+  display: block;
+}
+
+.uber {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.ub {
+  display: block;
+  background-color: rgba(214, 209, 209, 0.836);
+  margin-top: 10px;
+  border: none;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  display: block;
+}
+
+.rbe {
+  display: block;
+  background-color: rgba(214, 209, 209, 0.836);
+  margin-top: 10px;
+  border: none;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  display: block;
+}
+
+.request {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 15px;
+  border: none;
+  transition: opacity 0.5s;
+  transition: 0.3s;
+  margin-right: 10px;
+  display: inline-block;
+}
+.request:hover {
+  background-color: rgb(76, 69, 69);
+}
+.request:active {
+  background-color: rgb(100, 98, 98);
+}
+
+.later {
+  margin-top: 20px;
+  background-color: rgba(214, 209, 209, 0.836);
+  color: black;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  transition: opacity 0.5s;
+  transition: 0.3s;
+  display: inline-block;
+}
+.later:hover {
+  background-color: rgba(175, 164, 164, 0.836);
+}
+.later:active {
+  background-color: rgba(143, 139, 139, 0.836);
+}
+
+.ride {
+  font-weight: 400px;
+  font-size: xxx-large;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.halfclone {
+  display: inline-block;
+  box-shadow: 0px 0px 5px black;
+  width: 150px;
+  height: 269px;
+  margin-left: 50px;
+}
+
+.profilepic {
+  width: 150px;
+  height: 170px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.namepro {
+  display: block;
+  margin-top: 4px;
+  margin-left: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+
+.incommon {
+  margin-top: 3px;
+  margin-left: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100px;
+  font-size: small;
+  display: block;
+  color: gray;
+}
+
+.Select {
+  background-color: rgb(54, 119, 180);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  width: 100px;
+  height: 29px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  margin-left: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 3px;
+  transition: 0.3s;
+}
+
+.Select:hover {
+  background-color: rgb(91, 155, 214);
+}
+
+.Select:active {
+  background-color: rgb(120, 174, 224);
+}
+.halfclone2 {
+  box-shadow: 0px 0px 5px black;
+  display: inline-block;
+  width: 150px;
+  height: 269px;
+  margin-left: 10px;
+}
+.profilepic2 {
+  width: 150px;
+  height: 170px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.namepro2 {
+  display: block;
+  margin-top: 4px;
+  margin-left: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+
+.incommon2 {
+  margin-top: 3px;
+  margin-left: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100px;
+  font-size: small;
+  display: block;
+  color: gray;
+}
+
+.Select2 {
+  background-color: rgb(54, 119, 180);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  width: 100px;
+  height: 29px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  margin-left: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 3px;
+  transition: 0.3s;
+}
+
+.halfclone3 {
+  box-shadow: 0px 0px 5px black;
+  display: inline-block;
+  width: 150px;
+  height: 269px;
+  margin-left: 10px;
+}
+.profilepic3 {
+  width: 150px;
+  height: 170px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.namepro3 {
+  display: block;
+  margin-top: 4px;
+  margin-left: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+
+.incommon3 {
+  margin-top: 3px;
+  margin-left: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100px;
+  font-size: small;
+  display: block;
+  color: gray;
+}
+
+.Select3 {
+  background-color: rgb(54, 119, 180);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  width: 100px;
+  height: 29px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  margin-left: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 3px;
+  transition: 0.3s;
+}
+.Select2:hover {
+  background-color: rgb(91, 155, 214);
+}
+
+.Select2:active {
+  background-color: rgb(120, 174, 224);
+}
+
+.Select3:hover {
+  background-color: rgb(91, 155, 214);
+}
+
+.Select3:active {
+  background-color: rgb(120, 174, 224);
+}

@@ -1,0 +1,16 @@
+.st{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.col{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+.coll{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}

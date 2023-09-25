@@ -1,0 +1,51 @@
+.source{
+    text-align: center;
+}
+
+.new,.macbook,.pro,.price,.buy{
+    font-family: Arial;
+}
+
+    p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+.new{
+    color: orangered;
+    font-weight: 700;
+    font-size: small;
+    margin-bottom: 9px;
+    
+    
+}
+
+.macbook{
+    font-weight: 600;
+    font-size: large;
+    
+    
+}
+
+.pro{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.price{
+    margin-top: 9px;
+}
+
+.buy{
+    margin-top: 10px;
+    background-color: rgb(12, 134, 248);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+

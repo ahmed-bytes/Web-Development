@@ -1,0 +1,35 @@
+body {
+  height: 3000px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.overlay-div {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-top: 15px;
+  line-height: 25px;
+}
+
+.stick-bar {
+  position: fixed;
+  background-color: green;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}

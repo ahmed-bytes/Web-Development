@@ -1,0 +1,21 @@
+.container-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 30px;
+}
+
+.main-pic{
+    width: 100%; 
+
+}
+
+.main-pic2{
+    width: 100%;
+    
+}
+
+.main-pic3{
+    width: 100%;
+    
+}
